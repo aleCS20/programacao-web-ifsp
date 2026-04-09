@@ -1,0 +1,16 @@
+# Cache do Navegador e logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Pastas de IDEs
+.vscode/
+.idea/
+
+# Dependências (caso venha a usar npm/node no futuro)
+node_modules/
+dist/
+
+# Arquivos temporários de editores
+*.swp
+*.bak
