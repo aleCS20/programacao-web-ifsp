@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <title>Currículo Profissional - Materialize</title>
+        <title>Currículo Profissional - Aula 3</title>
+        <style>
+            .fixed-action-btn { bottom: 45px; right: 24px; }
+        </style>
     </head>
     <body>
 
@@ -15,44 +18,61 @@
                 <img src="https://img.freepik.com/free-vector/graident-ai-robot-vectorart_78370-4114.jpg?semt=ais_hybrid&w=740&q=80" 
                     alt="Foto Profissional" height="200" width="200"
                     class="circle responsive-img">
-                <h1 class="blue-text text-darken-4">ALESSANDRO BARBOSA DE OLIVEIRA</h1>
-                <h5 class="grey-text">Pesquisador em Software Testing & IA</h5>
+                <h1 class="blue-text text-darken-4">
+                    ALESSANDRO BARBOSA 
+                    <span class="badge green white-text" data-badge-caption="anos">35</span>
+                </h1>
+                <h5 class="grey-text">Pesquisador em Software Testing & Machine Learning</h5>
             </div>
 
             <div class="divider"></div>
 
-            <div class="section center-align">
-                <h4>Experiência</h4>
-                <p>Atuação em automação de testes com Appium e pesquisa em Digital Twins para Android.</p>
+            <div class="section">
+                <h4 class="center-align">Idiomas e Competências</h4>
+                <table class="highlight centered"> <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Nível / Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Português</td>
+                            <td>Nativo</td>
+                        </tr>
+                        <tr>
+                            <td>Inglês</td>
+                            <td>Avançado</td>
+                        </tr>
+                        <tr>
+                            <td>Python para ML</td>
+                            <td>Domínio Profissional</td>
+                        </tr>
+                        <tr>
+                            <td>Deep Learning</td>
+                            <td class="orange-text"><b>Objetivo Futuro</b></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="divider"></div>
 
             <div class="section">
                 <h4 class="center-align">Python para Machine Learning</h4>
-                <p class="center-align">Assista abaixo uma breve introdução sobre o uso de Python no ecossistema de aprendizado de máquina:</p>
-                
                 <div class="video-container">
-                    <iframe width="853" height="480" 
-                            src="https://www.youtube.com/embed/Yh5gcLG6C3Q" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                    </iframe>
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/Yh5gcLG6C3Q" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
 
-            <div class="divider"></div>
-
-            <div class="section center-align">
-                <h4>Qualificação</h4>
-                <p>Curso de Programador Web e Especialização em Ciência de Dados.</p>
+            <div class="fixed-action-btn">
+                <a href="mailto:seuemail@exemplo.com" class="btn-floating btn-large red pulse">
+                    <i class="material-icons">email</i>
+                </a>
             </div>
 
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
-
-        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>
